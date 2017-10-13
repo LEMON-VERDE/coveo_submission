@@ -1,0 +1,23 @@
+{
+  "name": "coveo_submission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoronixProduct3/coveo_submission.git"
+  },
+  "author": "MoronixProduct3",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MoronixProduct3/coveo_submission/issues"
+  },
+  "homepage": "https://github.com/MoronixProduct3/coveo_submission#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
