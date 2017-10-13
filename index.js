@@ -15,4 +15,9 @@ app.post('', (req, res)=>{
     res.json(payload);
 });
 
+app.get('',(req, res)=>{
+    payload.solution = 0;
+    res.json(payload);
+});
+
 app.listen(app.get('port'));
