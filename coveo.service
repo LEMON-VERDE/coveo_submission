@@ -1,0 +1,13 @@
+[Unit]
+Description = Coveo subscribtion application
+After=network.service
+Documentation=https://github.com/MoronixProduct3/coveo_submission
+
+[Service]
+User=root
+WorkingDirectory=/srv/coveo_submission
+ExecStart=/usr/bin/node /srv/coveo_submission/ --harmony
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
