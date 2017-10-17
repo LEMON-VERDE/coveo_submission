@@ -30,8 +30,8 @@ function shapeIsValid(straws){
         }
     }
 
-    if (longest > sum)
-        return false;
-    else
+    if (longest < sum)
         return true;
+    else
+        return false;
 }
